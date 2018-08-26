@@ -1,13 +1,13 @@
 
 {
-    "name": "room0",
+    "name": "pcTestRoom",
     "id": "101ee566-d48f-4fd7-bde4-e9a9da9df81a",
     "creationCodeFile": "",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-
+        "83c40b26-1780-4f8b-bf83-e36cf4c66e22"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_2F5B390","id": "83c40b26-1780-4f8b-bf83-e36cf4c66e22","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2F5B390","objId": "bf80a468-352d-4465-8fda-46f126c57d74","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 480,"y": 416}
             ],
             "layers": [
 
