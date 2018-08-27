@@ -30,3 +30,11 @@ else if (xInput != 0 || yInput != 0)
 
 // rotate to face mouse position
 image_angle = point_direction(x, y, mouse_x, mouse_y)
+
+// if player hits reload button, reload weapon
+if (keyboard_check(ord("R")))
+{
+	currAmmo = maxAmmo
+	
+	// TODO: play reload sound
+}
