@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "c1f2c911-568f-422e-bb1c-1b67b60ee78c",
+            "Value": {
+                "id": "01dbba45-1922-4a2a-a693-207c120f3c23",
+                "resourcePath": "sprites\\pirate\\pirate.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "adfcde5c-2c91-446e-8583-3525711dbabc",
