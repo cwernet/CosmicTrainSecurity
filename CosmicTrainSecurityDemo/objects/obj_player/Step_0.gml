@@ -35,6 +35,4 @@ image_angle = point_direction(x, y, mouse_x, mouse_y)
 if (keyboard_check(ord("R")))
 {
 	currAmmo = maxAmmo
-	
-	// TODO: play reload sound
 }

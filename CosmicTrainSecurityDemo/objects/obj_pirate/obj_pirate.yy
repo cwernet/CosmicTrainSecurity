@@ -4,7 +4,36 @@
     "mvc": "1.0",
     "name": "obj_pirate",
     "eventList": [
-        
+        {
+            "id": "c27670cf-ed57-48ae-b975-876731259fcc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
+        },
+        {
+            "id": "b96b296a-1dbb-4ee3-87ac-ef283d868006",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "37b0e882-51ed-4c8b-a2c2-26b790e12c59",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
+        },
+        {
+            "id": "4e626443-19f0-49a0-a0dc-7540fac43c2c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,8 +51,107 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "1c587fac-281e-4e34-b912-0d998933efef",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "isActive",
+            "varType": 3
+        },
+        {
+            "id": "4af02203-1383-4122-a4f4-6c01b84e401f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "shotCooldown",
+            "varType": 1
+        },
+        {
+            "id": "6e31ef99-26a6-404f-a684-9fe1f23ba785",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "framesBetweenShots",
+            "varType": 0
+        },
+        {
+            "id": "f63d05fc-cf3a-4b5d-af1a-ba9e12a68af3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "currAmmo",
+            "varType": 1
+        },
+        {
+            "id": "d42c55c9-0212-48b2-af14-337b6505208d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "maxAmmo",
+            "varType": 1
+        },
+        {
+            "id": "9f5cdbff-9a4b-40b6-8445-51c1f37558a7",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "45",
+            "varName": "reloadSpeed",
+            "varType": 1
+        },
+        {
+            "id": "61ed28ae-edd6-41e7-aebb-792a8b528759",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "15",
+            "varName": "bulletSpeed",
+            "varType": 0
+        }
+    ],
     "solid": false,
-    "spriteId": "c1f2c911-568f-422e-bb1c-1b67b60ee78c",
+    "spriteId": "b0240143-28b7-4941-bc09-1b746f05e47d",
     "visible": true
 }
