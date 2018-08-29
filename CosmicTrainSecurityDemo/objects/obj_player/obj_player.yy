@@ -53,6 +53,16 @@
             "enumb": 0,
             "eventtype": 1,
             "m_owner": "bf80a468-352d-4465-8fda-46f126c57d74"
+        },
+        {
+            "id": "5626a583-fa9f-402c-9d06-502a9007f155",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 70,
+            "eventtype": 9,
+            "m_owner": "bf80a468-352d-4465-8fda-46f126c57d74"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -127,9 +137,23 @@
             "value": "8",
             "varName": "maxAmmo",
             "varType": 1
+        },
+        {
+            "id": "b1168564-de0c-474e-b3ff-d23b9c791e0a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "materialsCount",
+            "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "af37872a-e547-49c1-8c91-27f889683b6f",
+    "spriteId": "d9ff9fcc-8888-42e6-ba94-b4d7d9ddda72",
     "visible": true
 }
