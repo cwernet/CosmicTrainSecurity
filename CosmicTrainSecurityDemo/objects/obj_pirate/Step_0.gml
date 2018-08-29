@@ -1,5 +1,19 @@
 /// @description Called once per frame
 
+// if player is within vision radius AND pirate has line of sight
+if (point_distance(x, y, obj_player.x, obj_player.y) <= visionRadius &&
+	!collision_line(x, y, obj_player.x, obj_player.y, obj_visionBlockerBaseClass, 1, 0))
+{
+	// set pirate to be active
+	isActive = true;
+}
+// otherwise
+else
+{
+	// set pirate to inactive
+	isActive = false;
+}	
+
 // if pirate is active
 if (isActive)
 {

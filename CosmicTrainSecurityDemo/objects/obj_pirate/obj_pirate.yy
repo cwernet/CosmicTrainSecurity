@@ -33,6 +33,36 @@
             "enumb": 0,
             "eventtype": 2,
             "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
+        },
+        {
+            "id": "f74eb110-5768-4e9d-aa80-4bca50c58492",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
+        },
+        {
+            "id": "e72ceb07-8c5f-46bd-a82f-6563a11368f6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
+        },
+        {
+            "id": "6c85761a-eb06-406d-88cc-c1d1a41f83d4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -149,6 +179,34 @@
             "value": "15",
             "varName": "bulletSpeed",
             "varType": 0
+        },
+        {
+            "id": "0b7e522a-31cc-4b84-9453-7c9ad955fa84",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "300",
+            "varName": "visionRadius",
+            "varType": 0
+        },
+        {
+            "id": "8820e257-17d1-4252-8e46-2263fca07fb0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "drawRadius",
+            "varType": 3
         }
     ],
     "solid": false,
