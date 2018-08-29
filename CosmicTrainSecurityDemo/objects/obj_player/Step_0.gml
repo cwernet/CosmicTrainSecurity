@@ -4,6 +4,9 @@
 xInput = 0
 yInput = 0
 
+var lay_id = layer_background_get_id("Background_Space");
+var 
+
 // detects horizontal input from user
 if (keyboard_check(ord("A")) && !place_meeting(x-16,y,obj_visionBlockerBaseClass))
 	xInput = -1

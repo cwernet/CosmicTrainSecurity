@@ -11,7 +11,8 @@
         "dc5ebe51-13c2-475a-b7f9-fc8ce42e7e82",
         "5f6462ca-5da5-4d12-b667-ace6a49e175f",
         "00b555c4-fae8-4943-8b5f-8e19d88eae3b",
-        "ae0ff897-e027-4615-ad65-6d9b4d5eca51"
+        "ae0ff897-e027-4615-ad65-6d9b4d5eca51",
+        "faf61a53-70e4-4291-a22c-970701469825"
     ],
     "filterType": "GMSprite",
     "folderName": "Spaceship Level Backgrounds",

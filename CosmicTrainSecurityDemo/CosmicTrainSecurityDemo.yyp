@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "faf61a53-70e4-4291-a22c-970701469825",
+            "Value": {
+                "id": "b9824126-c5dc-4cdd-bd08-720b63aebf93",
+                "resourcePath": "sprites\\BG_Space\\BG_Space.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fe465769-cb05-4a87-9159-7be2c0b24297",
             "Value": {
                 "id": "a00e7d88-c930-4085-855d-8c4f3b3ba719",
