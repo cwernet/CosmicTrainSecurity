@@ -190,7 +190,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "300",
+            "value": "350",
             "varName": "visionRadius",
             "varType": 0
         },
@@ -209,7 +209,7 @@
             "varType": 3
         }
     ],
-    "solid": false,
+    "solid": true,
     "spriteId": "aeba6842-3f1d-405a-bab6-f46886e471fd",
     "visible": true
 }
