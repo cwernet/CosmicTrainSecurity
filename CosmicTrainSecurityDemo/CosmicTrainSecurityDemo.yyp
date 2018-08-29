@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00b555c4-fae8-4943-8b5f-8e19d88eae3b",
+            "Value": {
+                "id": "770d02f5-4467-4ce1-b973-cd3520289d7a",
+                "resourcePath": "sprites\\BG_Beat_3_Rescaled\\BG_Beat_3_Rescaled.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "054e750d-7339-4282-82d5-0906b83a5c7f",
             "Value": {
                 "id": "bdf7e43c-a96a-421d-852e-39f8efd27d9d",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "5f6462ca-5da5-4d12-b667-ace6a49e175f",
+            "Value": {
+                "id": "1ba14d0e-c404-4162-9a6b-b3f4c7cb4408",
+                "resourcePath": "sprites\\BG_Beat_2_Rescaled\\BG_Beat_2_Rescaled.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60b2d298-ab13-4d07-8752-93218086c337",
             "Value": {
                 "id": "3e70af4b-3d3b-43e0-95dc-7a4d60459582",
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "ae0ff897-e027-4615-ad65-6d9b4d5eca51",
+            "Value": {
+                "id": "07bc6db4-039a-47d1-bb38-6cdb84de1f72",
+                "resourcePath": "sprites\\BG_Beat_45_Rescaled\\BG_Beat_45_Rescaled.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aeba6842-3f1d-405a-bab6-f46886e471fd",
             "Value": {
                 "id": "a916bdc8-727e-49f4-a3fc-ee74279d9af1",
@@ -451,6 +475,14 @@
             "Value": {
                 "id": "59645e03-55a9-48d2-a08c-9f85e6ad5410",
                 "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dc5ebe51-13c2-475a-b7f9-fc8ce42e7e82",
+            "Value": {
+                "id": "55e55846-abaf-4dc6-845c-80c1112d0cf4",
+                "resourcePath": "sprites\\BG_Beat_1_Rescaled\\BG_Beat_1_Rescaled.yy",
                 "resourceType": "GMSprite"
             }
         },
