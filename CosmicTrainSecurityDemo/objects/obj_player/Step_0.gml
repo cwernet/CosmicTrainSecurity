@@ -37,3 +37,20 @@ if (keyboard_check(ord("R")))
 	currAmmo = maxAmmo
 }
 
+//room swapping
+if(place_meeting(x,y,obj_RoomTransfer))
+{
+switch (room)
+   {
+   case Room_Beat_1: x = 268; y = 555; room_goto(Room_Beat_2);  break;
+   case Room_Beat_2: x = 2160; y = 1404;room_goto(Room_Beat_3); break;
+   case Room_Beat_3: x = 244; y = 635;room_goto(Room_Beat_45); break;
+   }
+   
+}
+
+//vent swap
+if(place_meeting(x,y,obj_VentTransfer))
+{
+	x = 1725; y = 1459;
+}

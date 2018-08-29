@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "56d1dd22-be04-46f3-bb16-2f9c9740ff04",
+            "Value": {
+                "id": "ee9437b2-e198-4c6f-9dde-920a749ecf5b",
+                "resourcePath": "sprites\\spr_RoomNext\\spr_RoomNext.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5f15cb33-2039-472f-a1ea-abdae334899b",
             "Value": {
                 "id": "d1437abb-6b10-4e2f-a65a-c2c0ecc1494c",
@@ -335,6 +343,14 @@
             }
         },
         {
+            "Key": "8c9a13fd-69c4-4836-a888-e2d19eeea533",
+            "Value": {
+                "id": "297a458f-2955-427e-876b-07e86741f461",
+                "resourcePath": "objects\\obj_RoomTransfer\\obj_RoomTransfer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "945f8fa1-80e3-4e8e-9549-6f5354a2d481",
             "Value": {
                 "id": "7ccfec13-4f9d-45c1-abb0-f8c4da5429c5",
@@ -412,6 +428,14 @@
                 "id": "cca2f438-5123-48ad-aaa4-b0af6d6d2efc",
                 "resourcePath": "objects\\obj_enemyBullet\\obj_enemyBullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b5200301-76da-4086-b589-8fcbb4207389",
+            "Value": {
+                "id": "c0f62915-488d-4556-8539-a51a6810a2cf",
+                "resourcePath": "sprites\\spr_VentNext\\spr_VentNext.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -516,6 +540,14 @@
                 "id": "9da2bf11-b9e3-4ba6-9a71-d03e4ac7a526",
                 "resourcePath": "sprites\\spr_trapMaterials\\spr_trapMaterials.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ebc563cc-8ef2-47eb-bb78-61ed1022a4ed",
+            "Value": {
+                "id": "65566283-a1c2-419a-a7c1-1628e2f8035e",
+                "resourcePath": "objects\\obj_VentTransfer\\obj_VentTransfer.yy",
+                "resourceType": "GMObject"
             }
         },
         {
