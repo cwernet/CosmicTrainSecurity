@@ -6,17 +6,23 @@ if (point_distance(x, y, obj_player.x, obj_player.y) <= visionRadius &&
 {
 	// set pirate to be active
 	isActive = true;
+	
+	// stop enemy on their path
+	path_speed = 0;
 }
 // otherwise
 else
 {
 	// set pirate to inactive
 	isActive = false;
+	
+	// continue enemy on their path
+	path_speed = enemySpeed;
 }	
 
 // if pirate is active
 if (isActive)
-{
+{	
 	// set their direction to face player
 	direction = point_direction(x, y, obj_player.x, obj_player.y);
 	

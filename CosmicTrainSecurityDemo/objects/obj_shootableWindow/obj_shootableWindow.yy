@@ -1,0 +1,111 @@
+{
+    "id": "e47b78d8-c0fd-4ed1-8d01-a718ec3ac9e8",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_shootableWindow",
+    "eventList": [
+        {
+            "id": "ae9c9fbe-4075-4845-983a-a6d835f1ebb6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "37b0e882-51ed-4c8b-a2c2-26b790e12c59",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "e47b78d8-c0fd-4ed1-8d01-a718ec3ac9e8"
+        },
+        {
+            "id": "9f537419-83c5-430a-8174-c46c00fb7814",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "e47b78d8-c0fd-4ed1-8d01-a718ec3ac9e8"
+        },
+        {
+            "id": "2abcd0e5-51d5-440a-a5e6-d6e78c49b703",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "e47b78d8-c0fd-4ed1-8d01-a718ec3ac9e8"
+        },
+        {
+            "id": "0a566ac3-8d3a-4999-a1c3-846897346d2e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "e47b78d8-c0fd-4ed1-8d01-a718ec3ac9e8"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "a641e459-8c39-4119-bef7-f123babf6ffb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "300",
+            "varName": "suctionRadius",
+            "varType": 0
+        },
+        {
+            "id": "68351afc-7e07-41b7-a1f9-4298fed04f43",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "radiusShown",
+            "varType": 3
+        },
+        {
+            "id": "f44d20ca-7a73-40e3-a336-8725736adba0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "9",
+            "varName": "suckSpeed",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "a07f2414-f162-4ff1-b32b-b5821e2029b6",
+    "visible": false
+}

@@ -63,6 +63,16 @@
             "enumb": 64,
             "eventtype": 8,
             "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
+        },
+        {
+            "id": "13ba1b57-888f-48ee-a413-856c08542657",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "eb73edbc-1943-442b-b31f-75548028faa8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -120,7 +130,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10",
+            "value": "8",
             "varName": "framesBetweenShots",
             "varType": 0
         },
@@ -207,6 +217,20 @@
             "value": "0",
             "varName": "drawRadius",
             "varType": 3
+        },
+        {
+            "id": "3bb95f36-fa7d-4913-b43a-1003191b442a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "2.1",
+            "varName": "enemySpeed",
+            "varType": 0
         }
     ],
     "solid": true,
