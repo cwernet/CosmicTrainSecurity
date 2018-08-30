@@ -1,5 +1,8 @@
 /// @description Called when player's bullet collides with window
 
+// play suck noise
+audio_play_sound(sfx_succ, 1, false);
+
 // create list of objects to be sucked out window
 toSuck = ds_list_create();
 

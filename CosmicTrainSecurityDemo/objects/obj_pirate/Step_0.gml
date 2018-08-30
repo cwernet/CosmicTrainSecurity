@@ -32,8 +32,9 @@ if (isActive)
 			image_angle = direction;
 		}
 		
-		//play shooting sound 
-		audio_play_sound(PirateShooting_sfx,1,false);
+		// if succ sound isn't playing, play shoot sound
+		if (!audio_is_playing(sfx_succ))
+			audio_play_sound(PirateShooting_sfx,1,false);
 		
 		// begin between-shoot cooldown and subtract from ammo
 		shotCooldown = framesBetweenShots;

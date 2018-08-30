@@ -42,7 +42,7 @@
             "Key": "01fdcc16-3437-4a38-927d-fec71eb538a6",
             "Value": {
                 "id": "ac37d420-0046-4103-9a68-b772bb2e7507",
-                "resourcePath": "sounds\\spaseshipVentingAir\\spaseshipVentingAir.yy",
+                "resourcePath": "sounds\\sfx_succ\\sfx_succ.yy",
                 "resourceType": "GMSound"
             }
         },
