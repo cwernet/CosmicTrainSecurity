@@ -554,7 +554,7 @@
             "Key": "d76a386a-cd81-4e2f-a3e1-651d40d3304d",
             "Value": {
                 "id": "71c89b90-d64d-4312-8050-0b5b022edced",
-                "resourcePath": "sounds\\exploshon_sfx\\exploshon_sfx.yy",
+                "resourcePath": "sounds\\sfx_explosion\\sfx_explosion.yy",
                 "resourceType": "GMSound"
             }
         },
