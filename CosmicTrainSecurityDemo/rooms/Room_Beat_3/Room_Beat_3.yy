@@ -540,7 +540,7 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Backgrounds_1",
+            "name": "Background_Space",
             "id": "4f280200-6ef8-40d4-bb39-b8fa2afd19df",
             "animationFPS": 15,
             "animationSpeedType": "0",
@@ -570,8 +570,8 @@
             "visible": true,
             "vspeed": 0,
             "vtiled": false,
-            "x": -400,
-            "y": 0
+            "x": -200,
+            "y": -150
         }
     ],
     "modelName": "GMRoom",
@@ -597,7 +597,7 @@
     },
     "mvc": "1.0",
     "views": [
-{"id": "87dd618e-d4bc-48f1-8677-b1b136dfe443","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
+{"id": "87dd618e-d4bc-48f1-8677-b1b136dfe443","hborder": 640,"hport": 720,"hspeed": -1,"hview": 720,"inherit": false,"modelName": "GMRView","objId": "bf80a468-352d-4465-8fda-46f126c57d74","mvc": "1.0","vborder": 360,"visible": true,"vspeed": -1,"wport": 1280,"wview": 1280,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "f05837b5-2dcd-4916-ba32-3817e8b5647d","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "b13e2b6e-6fe5-4dea-8787-a1485eeefe01","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
 {"id": "c0fde51f-6b1f-4e01-81ee-5b845084afa8","hborder": 32,"hport": 768,"hspeed": -1,"hview": 768,"inherit": false,"modelName": "GMRView","objId": "00000000-0000-0000-0000-000000000000","mvc": "1.0","vborder": 32,"visible": false,"vspeed": -1,"wport": 1024,"wview": 1024,"xport": 0,"xview": 0,"yport": 0,"yview": 0},
@@ -610,7 +610,7 @@
         "id": "60519133-4463-48a8-9df9-c4a3457696fb",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false,
         "modelName": "GMRoomViewSettings",
         "mvc": "1.0"

@@ -4,7 +4,15 @@
 xInput = 0
 yInput = 0
 
+xCam = camera_get_view_x(view_camera[0]);
+yCam = camera_get_view_y(view_camera[0]);
 
+//Keeps Background in front of camera
+if layer_exists("Background_Space")
+{
+	layer_x("Background_Space",xCam);
+	layer_y("Background_Space",yCam);
+}
 
 // detects horizontal input from user
 if (keyboard_check(ord("A")) && !place_meeting(x-16,y,obj_visionBlockerBaseClass))
