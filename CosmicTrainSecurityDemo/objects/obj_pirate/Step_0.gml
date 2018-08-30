@@ -32,6 +32,9 @@ if (isActive)
 			image_angle = direction;
 		}
 		
+		//play shooting sound 
+		audio_play_sound(PirateShooting_sfx,1,false);
+		
 		// begin between-shoot cooldown and subtract from ammo
 		shotCooldown = framesBetweenShots;
 		currAmmo--;

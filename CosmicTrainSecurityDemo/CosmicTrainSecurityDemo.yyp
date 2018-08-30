@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "01fdcc16-3437-4a38-927d-fec71eb538a6",
+            "Value": {
+                "id": "ac37d420-0046-4103-9a68-b772bb2e7507",
+                "resourcePath": "sounds\\spaseshipVentingAir\\spaseshipVentingAir.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "054e750d-7339-4282-82d5-0906b83a5c7f",
             "Value": {
                 "id": "bdf7e43c-a96a-421d-852e-39f8efd27d9d",
@@ -148,6 +156,14 @@
                 "id": "9c7c9574-926d-4a50-9ac6-a8318ddeb810",
                 "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3b391133-4655-4a62-8119-ffeded71fb0e",
+            "Value": {
+                "id": "929f4aa6-fff3-4ae1-bd65-73eda9615337",
+                "resourcePath": "sounds\\trapPickup_sfx\\trapPickup_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -335,6 +351,14 @@
             }
         },
         {
+            "Key": "84a0d4a3-2ece-4e6c-9f4c-e500b76d43ed",
+            "Value": {
+                "id": "b59622e6-1981-49f0-b998-6eac33a5b297",
+                "resourcePath": "sounds\\vent_sfx\\vent_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8aa31042-6e6a-4691-a42b-fb246f59874e",
             "Value": {
                 "id": "6c9785c1-e7fc-4e62-8087-3718ff23ae8a",
@@ -364,6 +388,14 @@
                 "id": "96de6833-f858-4018-99df-13f6f46fa80f",
                 "resourcePath": "views\\9584c0bf-1700-46fc-9f87-6646df9bb020.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "95dc940b-7b56-4d8f-a38e-c0c622090a6c",
+            "Value": {
+                "id": "363cdee9-3cd8-4799-b40f-ceeb98b64422",
+                "resourcePath": "sounds\\Reload_sfx\\Reload_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -471,11 +503,27 @@
             }
         },
         {
+            "Key": "ca8184de-98c4-4be5-a10e-be1499e39bd3",
+            "Value": {
+                "id": "67816e89-fe48-4e1a-b2cc-84e570c3c98e",
+                "resourcePath": "sounds\\PlacingTrap_sfx\\PlacingTrap_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "adfcde5c-2c91-446e-8583-3525711dbabc",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d038477d-5690-4dee-ab1b-243c7e06830f",
+            "Value": {
+                "id": "e6cf8786-bcfc-4086-b7f5-4ee031a35687",
+                "resourcePath": "sounds\\GunPickup_sfx\\GunPickup_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -495,6 +543,22 @@
             }
         },
         {
+            "Key": "d645310a-663f-4ea5-8d69-13558c278919",
+            "Value": {
+                "id": "59d0c893-6a7c-4553-be3f-63f708f9f3ed",
+                "resourcePath": "sounds\\PirateShooting_sfx\\PirateShooting_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "d76a386a-cd81-4e2f-a3e1-651d40d3304d",
+            "Value": {
+                "id": "71c89b90-d64d-4312-8050-0b5b022edced",
+                "resourcePath": "sounds\\exploshon_sfx\\exploshon_sfx.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d9ff9fcc-8888-42e6-ba94-b4d7d9ddda72",
             "Value": {
                 "id": "59645e03-55a9-48d2-a08c-9f85e6ad5410",
@@ -508,6 +572,14 @@
                 "id": "55e55846-abaf-4dc6-845c-80c1112d0cf4",
                 "resourcePath": "sprites\\BG_Beat_1_Rescaled\\BG_Beat_1_Rescaled.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e08def2a-c2a3-42ef-a6c0-03ebeb74d15e",
+            "Value": {
+                "id": "6f3c255e-80db-4679-8ff9-877ec5995f69",
+                "resourcePath": "sounds\\playerShooting_sfx\\playerShooting_sfx.yy",
+                "resourceType": "GMSound"
             }
         },
         {

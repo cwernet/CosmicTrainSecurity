@@ -7,6 +7,9 @@ if (materialsCount > 0)
 	var newTripwire = instance_create_layer(x, y, "CharactersAndInteractables", obj_tripwire);
 	materialsCount--;
 	
+	//play the sound affect 
+	audio_play_sound(PlacingTrap_sfx, 1,false);
+	
 	// set direction of tripwire to match general direction of player
 	with (newTripwire)
 	{

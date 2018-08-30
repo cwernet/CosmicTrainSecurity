@@ -6,6 +6,9 @@ if (!isArmed)
 	isArmed = true
 	currAmmo = maxAmmo
 	
+	//play gun pickup sound 
+	audio_play_sound(GunPickup_sfx,3,false);
+	
 	// destroy pistol pickup
 	instance_destroy(other)
 }

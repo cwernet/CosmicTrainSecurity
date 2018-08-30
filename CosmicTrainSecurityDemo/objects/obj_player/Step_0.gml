@@ -4,8 +4,7 @@
 xInput = 0
 yInput = 0
 
-var lay_id = layer_background_get_id("Background_Space");
-var 
+
 
 // detects horizontal input from user
 if (keyboard_check(ord("A")) && !place_meeting(x-16,y,obj_visionBlockerBaseClass))
@@ -37,6 +36,10 @@ image_angle = point_direction(x, y, mouse_x, mouse_y)
 // if player hits reload button, reload weapon
 if (keyboard_check(ord("R")))
 {
+	if(!audio_is_playing(Reload_sfx))
+	{
+	audio_play_sound(Reload_sfx,1,false);
+	}
 	currAmmo = maxAmmo
 }
 
